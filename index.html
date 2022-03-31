@@ -28,21 +28,24 @@
    <input class="form-control" type="number" id ="ects" >
   </div>
   <div class="form-check" >
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck12">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
   <button type="button" onclick="dodaj()" class="btn btn-primary">Submit</button>
 </form>
 </div>
 </form>
+
     <div class="container" id="forma">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Pretrazite po godini">
       <table id="tablica-postovi" class="table table-hover">
         <thead class="thead-dark">
           <tr>
-            <th>R.br.</th>
-            <th>Datum objave</th>
-            <th>Naziv</th>
+            <th>Godina</th>
+            <th>Ects</th>
+            <th>Ime predmeta</th>
             <th>obrisi</th>
+            <th>check</th>
           </tr>
         </thead>
         <tbody>
